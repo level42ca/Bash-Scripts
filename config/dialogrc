@@ -1,0 +1,300 @@
+#
+# Run-time configuration file for dialog
+#
+# Created by: zelda_64
+#
+# Types of values:
+#
+# Number     -  <number>
+# String     -  "string"
+# Boolean    -  <ON|OFF>
+# Attribute  -  (foreground,background,highlight?,underline?,reverse?)
+
+#! Available colors:
+#?    - BLACK
+#?    - RED
+#?    - GREEN
+#?    - YELLOW
+#?    - BLUE
+#?    - MAGENTA
+#?    - CYAN
+#?    - WHITE
+
+#! Set aspect-ration.
+aspect = 0
+
+#! Set separator (for multiple widgets output).
+separate_widget = ""
+
+#! Set tab-length (for textbox tab-conversion).
+tab_len = 0
+
+#! Make tab-traversal for checklist, etc., include the list.
+visit_items = OFF
+
+#! Show scrollbar in dialog boxes?
+use_scrollbar = OFF
+
+#! Shadow dialog boxes? This also turns on color.
+use_shadow = ON
+
+#! Turn color support ON or OFF
+use_colors = ON
+
+################################################################################
+###  Dialog                                                                  ###
+################################################################################
+#! Screen color 
+#?    - Backtitle and backtitle line color
+#?    - Screen background color
+#?    - Backtitle bold toggle
+screen_color = (WHITE,BLACK,OFF)
+
+#! Shadow color 
+#?    - N/A
+#?    - Shadow color
+#?    - N/A
+shadow_color = (YELLOW,BLACK,OFF)
+
+#! Dialog box color
+#?    - Dialog box body font color
+#?    - Dialog box body background color
+#?    - Dialog box body bold toggle
+dialog_color = (CYAN,BLACK,OFF)
+
+#! Dialog box title color
+#?    - Dialog box title color
+#?    - Dialog box title background color
+#?    - Dialog box title bold toggle
+title_color = (WHITE,BLACK,OFF)
+
+################################################################################
+###  Dialog Border                                                           ###
+################################################################################
+#! Dialog box border color (LEFT/TOP)
+#?    - Dialog box border color 
+#?    - Dialog box border background color
+#?    - Dialog box border bold toggle
+border_color = (WHITE,BLACK,OFF)
+
+#! Dialog box border2 color (RIGHT/BOTTOM)
+#?    - Dialog box border color 
+#?    - Dialog box border background color
+#?    - Dialog box border bold toggle
+border2_color = border_color
+
+################################################################################
+###  Buttons                                                                 ###
+################################################################################
+#! Active button color
+#?    - Active button color "< >"
+#?    - Active button background color "< >"
+#?    - Active button bold toggle "< >"
+button_active_color = (WHITE,BLACK,ON)
+
+#! Inactive button color
+#?    - Inactive button color "< >"
+#?    - Inactive button background color "< >"
+#?    - Inactive button bold toggle "< >"
+button_inactive_color = (BLACK,BLACK,OFF)
+
+#! Active button key color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+button_key_active_color = (YELLOW,YELLOW,OFF)
+
+#! Inactive button key color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+button_key_inactive_color = (YELLOW,YELLOW,OFF)
+
+#! Active button label color
+#?    - Active button text color
+#?    - Active button background color
+#?    - Active button bold toggle
+button_label_active_color = (CYAN,BLACK,ON)
+
+#! Inactive button label color
+#?    - Inactive button text color
+#?    - Inactive button background color
+#?    - Inactive button bold toggle
+button_label_inactive_color = (BLACK,BLACK,OFF)
+
+################################################################################
+###  Menu Box                                                                ###
+################################################################################
+#! Menu box color
+#?    - N/A
+#?    - Menu box background color
+#?    - N/A
+menubox_color = (YELLOW,BLACK,OFF)
+
+#! Menu box border color (RIGHT/BOTTOM)
+#?    - Menu box border color
+#?    - Menu box border background color
+#?    - Menu box border bold toggle
+menubox_border_color = (BLACK,BLACK,OFF)
+
+#! Menu box border2 color (LEFT/TOP)
+#?    - Menu box Border color 
+#?    - Menu box Border background color
+#?    - Menu box border bold toggle
+menubox_border2_color = menubox_border_color
+
+################################################################################
+###  Input Box                                                               ###
+################################################################################
+#! Input box color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+inputbox_color = (YELLOW,YELLOW,OFF)
+
+#! Input box border color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+inputbox_border_color = (YELLOW,YELLOW,OFF)
+
+#! Input box border2 color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+inputbox_border2_color = (YELLOW,YELLOW,OFF)
+
+################################################################################
+###  Search Box                                                              ###
+################################################################################
+#! Search box color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+searchbox_color = (YELLOW,YELLOW,OFF)
+
+#! Search box title color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+searchbox_title_color = (YELLOW,YELLOW,OFF)
+
+#! Search box border color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+searchbox_border_color = (YELLOW,YELLOW,OFF)
+
+#! Search box border2 color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+searchbox_border2_color = (YELLOW,YELLOW,OFF)
+
+################################################################################
+###  Items/Tags/Check boxes                                                  ###
+################################################################################
+#! List item color
+#?    - List item text color
+#?    - List item background color
+#?    - List item bold toggle
+item_color = (BLACK,BLACK,OFF)
+
+#! Selected list item color
+#?    - Selected list item text color
+#?    - Selected list item background color
+#?    - Selected list item bold toggle
+item_selected_color = (CYAN,BLACK,ON)
+
+#! Item help-text color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+itemhelp_color = (YELLOW,YELLOW,OFF)
+
+#! List tag color
+#?    - List Item Tag text color
+#?    - List Item Tag background color
+#?    - List Item Tag bold toggle
+tag_color = (BLACK,BLACK,OFF)
+
+#! Selected list tag color
+#?    - List Active Item Tag text color
+#?    - List Active Item Tag background color
+#?    - List Active Item Tag bold toggle
+tag_selected_color = (WHITE,BLACK,ON)
+
+#! List tag key color
+#?    - List tag key text color
+#?    - List tag key background color
+#?    - List tag key bold toggle
+tag_key_color = (BLACK,BLACK,OFF)
+
+#! Selected list tag key color
+#?    - Selected list tag key text color
+#?    - Selected list tag key background color
+#?    - Selected list tag key bold toggle
+tag_key_selected_color = (WHITE,BLACK,ON)
+
+#! Check box color
+#?    - Check box text color
+#?    - Check box background color
+#?    - Check box bold toggle
+check_color = (CYAN,BLACK,OFF)
+
+#! Selected check box color
+#?    - Selected Check box text color
+#?    - Selected Check box background color
+#?    - Selected Check box bold toggle
+check_selected_color = (CYAN,BLACK,ON)
+
+################################################################################
+###  Arrows                                                                  ###
+################################################################################
+#! Up arrow color
+#?    - Up arrow text color
+#?    - N/A
+#?    - Up arrow bold toggle
+uarrow_color = (WHITE,YELLOW,ON)
+
+#! Down arrow color
+#?    - Down arrow text color
+#?    - N/A
+#?    - Down arrow bold toggle
+darrow_color = uarrow_color
+
+################################################################################
+###  Form                                                                  ###
+################################################################################
+#! Active form text color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+form_active_text_color = (YELLOW,YELLOW,OFF)
+
+#! Form text color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+form_text_color = (YELLOW,YELLOW,OFF)
+
+#! Readonly form item color
+#?    - N/A
+#?    - N/A
+#?    - N/A
+form_item_readonly_color = (YELLOW,YELLOW,OFF)
+
+################################################################################
+###  Others                                                                  ###
+################################################################################
+#! Scroll percentage indicator color
+#?    - Scroll percentage indicator text color
+#?    - Scroll percentage indicator background color
+#?    - Scroll percentage indicator bold toggle
+position_indicator_color = (WHITE,BLACK,ON)
+
+#! Dialog box gauge color
+#?    - Dialog box gauge progress color
+#?    - Dialog box gauge background color
+#?    - Dialog box gauge bold toggle
+gauge_color = (CYAN,BLACK,OFF)
